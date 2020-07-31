@@ -11,7 +11,11 @@ export class IndexPage implements OnInit {
   constructor(
     private authservice: AuthenticationService,
     private router: Router
-  ) {}
+  ) {
+    if(this.authservice.isLoggedIn){
+      this.router.navigate(['/home']);
+    }
+  }
 
   ngOnInit() {}
   forgotPass(name) {
