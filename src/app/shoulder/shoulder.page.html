@@ -1,0 +1,32 @@
+<ion-header>
+    <ion-toolbar>
+        <ion-buttons slot="start">
+            <ion-back-button></ion-back-button>
+        </ion-buttons>
+        <ion-title>Shoulder</ion-title>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <ion-grid>
+        <div *ngIf="data">
+            <ion-row *ngFor="let item of data | async">
+                <ion-col>
+                    <ion-card>
+                        <ion-card-header>
+                            Lifted on {{item.key}}
+                        </ion-card-header>
+                        <ion-card-content>
+                            Excercise<br> {{item.Workout}}
+                        </ion-card-content>
+                    </ion-card>
+                </ion-col>
+            </ion-row>
+        </div>
+    </ion-grid>
+    <ion-fab vertical="bottom" horizontal="end" slot="fixed">
+        <ion-fab-button>
+            <ion-icon name="arrow-up-circle" (click)="addWorkout()"></ion-icon>
+        </ion-fab-button>
+    </ion-fab>
+</ion-content>
