@@ -22,11 +22,6 @@ export class AppComponent implements OnInit {
       url: '/workout',
       icon: 'barbell'
     },
-    {
-      title: 'Diet',
-      url: '/food',
-      icon: 'fast-food'
-    },
   ];
   constructor(
     private platform: Platform,

@@ -1,5 +1,7 @@
 {
   "name": "getfitbuddy",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }

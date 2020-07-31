@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "817280072187",
+    "firebase_url": "https://getfitbuddy-8070f.firebaseio.com",
+    "project_id": "getfitbuddy-8070f",
+    "storage_bucket": "getfitbuddy-8070f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:817280072187:android:fc8fcb055c54a061c0335e",
+        "android_client_info": {
+          "package_name": "com.darsan.getfitbud"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "817280072187-3meviti2u8bj04ev6jold62q09qhqil5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkO9-AOzlQspPd32KKpfdq7iZJ8AR_8fQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "817280072187-3meviti2u8bj04ev6jold62q09qhqil5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
