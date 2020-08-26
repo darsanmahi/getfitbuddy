@@ -4,7 +4,7 @@ This is the repository for the hybrid application of Get Fit Buddy. Built with I
 
 ## Steps to Procees
 
-git clone https://github.com/darsanmahi/getfitbuddy.git
+git clone https://github.com/priyadarsanmahendiran/getfitbuddy.git
 
 Go the cloned folder
 
